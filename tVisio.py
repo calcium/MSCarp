@@ -27,7 +27,7 @@ def _showAll(args):
                     print '\t', f.__doc__
 
 
-def t1(args):
+def grepText(args):
     from requests.utils import quote
     from lxml import html
     from lxml import etree
